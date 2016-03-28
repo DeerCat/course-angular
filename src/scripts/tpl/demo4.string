@@ -1,0 +1,12 @@
+<div class="container">
+	<h1 class="page-header">AngularJS</h1>
+	<div ng-controller="UserController">
+		<form name="userForm" novalidate="true">
+			<input type="email" name="userEmail" ng-model="email" required="true" minlength="5" maxlength="50">
+		</form>
+		<div ng-if="userForm.userEmail.$touched || userForm.$submitted">
+			<p class="alert alert-danger" ng-if="userForm.userEmail.$error.required">email 字段是必填项</p>
+		</div>
+		<pre>{{ userForm | json }}</pre>
+	</div>
+</div>

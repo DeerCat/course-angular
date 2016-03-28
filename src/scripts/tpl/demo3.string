@@ -1,0 +1,21 @@
+<div class="container">
+	<h1 class="page-header">AngularJS</h1>
+	<div ng-controller="ShowController">
+		<input type="number" ng-model="item.limit"> <input type="text" ng-model="query">
+		<ul>
+			<li ng-repeat="item in shows
+				 | limitTo:item.limit
+				 | filter: {title: query }
+				 | filter: {rate: 9}:comparator
+				 | orderBy: '-rate'
+				">
+				<h3>
+					《 {{item.title}} 》
+					<span class="badge">{{ item.rate }}</span>
+				</h3>
+				更新于：{{ item.updated * 1000 | date: 'yyyy-MM-dd, HH:mm' }} <br>
+				{{ item.description | limitTo:50 }}
+			</li>
+		</ul>
+	</div>
+</div>

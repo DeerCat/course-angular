@@ -1,0 +1,7 @@
+<div class="container">
+	<h1 class="page-header">AngularJS</h1>
+	<div ng-controller="UserController">
+		<button ng-click="gameOn()">开始游戏</button>
+		<button ng-click="gameOver()">结束游戏</button>
+	</div>
+</div>

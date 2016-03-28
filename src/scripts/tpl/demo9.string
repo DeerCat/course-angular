@@ -1,0 +1,9 @@
+<div class="container">
+	<h1 class="page-header">AngularJS</h1>
+	<div ng-controller="ShowController">
+		<ul>
+			<li ng-repeat="show in shows">{{ show.title }}</li>
+		</ul>
+		<button ng-click="getShows()">显示内容</button>
+	</div>
+</div>

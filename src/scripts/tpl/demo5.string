@@ -1,0 +1,12 @@
+<div class="container">
+	<h1 class="page-header">AngularJS</h1>
+	<div ng-controller="UserController">
+		<h2>User</h2>
+		<p>{{ user.name }}, {{user.email}}</p>
+		<button ng-click="submit()">提交</button>
+	</div>
+	<div ng-controller="ShowController">
+		<h2>Show</h2>
+		<p>{{ user.name }}, {{user.email}}</p>
+	</div>
+</div>

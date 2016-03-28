@@ -1,0 +1,6 @@
+<div class="container">
+	<h1 class="page-header">AngularJS</h1>
+	<div ng-controller="ShowController as user">
+		{{ user.name }}
+	</div>
+</div>
