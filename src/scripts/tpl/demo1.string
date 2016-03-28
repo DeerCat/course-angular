@@ -1,0 +1,9 @@
+<div class="container">
+	<h1 class="page-header">AngularJS</h1>
+	<div ng-controller="UserController">
+		<input type="text" ng-model="user.name">
+		<input type="text" ng-model="user.email"><br/>
+		{{ user.name }} : {{ user.email }}
+		<button ng-click="user.subscribe()">订阅</button>
+	</div>
+</div>
