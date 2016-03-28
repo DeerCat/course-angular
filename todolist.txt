@@ -1,0 +1,136 @@
+十、移动端基础知识讲解（1天）
+10.1 页面重构
+10.1.1 移动端切图
+10.1.2 viewport
+10.1.3 Rem/vw的使用
+10.1.4 iconfont/webfont
+10.1.5 flexbox详解
+10.1.6 移动web特别样式处理（reset，1px border, 高清图片）
+10.2 页面交互
+10.2.1 Tap基础事件与触摸touch
+10.2.2 ECMAScript 5（严格模式，JSON，数组新方法）
+10.2.3 ECMAScript 6
+
+十一、前端工程（2天）
+11.1 gulp
+11.2 grunt(选讲)
+11.3 bower
+11.4 webpack(选讲)
+
+十二、移动常用前端框架（3天）
+12.1 Yo
+12.2 Zepto
+12.3 iScroll
+12.4 swiper
+12.5 前后端模板
+12.5.1 hogan
+12.5.2 ArtTemplate
+12.5.3 Handlerbar
+12.5.4 velocity
+
+十三、项目实战一（5天）
+13.1 Yo + Zepto + iScroll + swiper 构建WebApp
+13.2 微信场景项目
+
+十四、	WebApp开发（5天）
+14.1 AngularJS基础
+14.1.1 基础知识（ng-app,Modules,Controller,$apply,$watch）
+14.1.2 指令(ng-repeat,ng-class,ng-show,ng-hide)
+14.1.3 过滤器(date,limitTo,filter)
+14.1.4 表单(NgModelController，表单验证)
+14.1.5 服务（自定义服务，Angular提供的服务：$log,$timeout,$q,$http）
+14.1.6 其他（Controller as 语法，安全的依赖注入方法）
+14.2 ionic基础
+14.2.1 ionic css布局
+14.2.2 ionic js指令布局
+14.2.3 ionic路由 页面切换
+14.2.4 ionic-tabs
+14.2.5 ionic侧边栏ion-side-menus
+14.2.6 ionic列表 ion-list
+14.3 Vue与Avalon(选讲)
+14.4 ReactJS(选讲)
+
+十五、HybridApp开发（5天）
+15.1 Phonegap
+15.1.1 HybridApp介绍(独立App项目，嵌入式App项目，嵌入微信项目)
+15.1.2 工具与环境搭建
+15.1.3 WebviewJsBridge(扫一扫，图像，地理定位，通讯录，通知)
+15.1.4 构建，打包与发布
+15.2 微信接口JSSDK（了解）
+
+十六、项目实战二（5天）
+16.1 项目开发基础
+16.1.1 项目开发流程（兄弟团队，各种输出的分档，合作与交流）
+16.1.2 前端架构及前后端总体架构
+16.2 Yo + ionic + AngularJS + phonegap 项目实战
+
+
+
+- ECMAScript 深度了解 http://weizhifeng.net/javascript-the-core.html  http://dmitrysoshnikov.com/
+http://www.cnblogs.com/sanshi/archive/2009/07/08/1519036.html
+http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html
+  ECMA5.1 http://www.zhangxinxu.com/wordpress/2012/01/introducing-ecmascript-5-1/
+- 命名规范：http://www.cnblogs.com/rising-fay/archive/2013/02/25/2932592.html
+- tip: http://vadikom.com/demos/poshytip/
+- sublime text 快捷键：
+http://blog.csdn.net/fovwin/article/details/9102731
+http://blog.csdn.net/moyan_min/article/details/11530751
+- jQuery manual: http://www.jb51.net/shouce/jquery1.82/ http://www.jb51.net/shouce/jquery/
+- avalon: http://rubylouvre.github.io/mvvm/
+- oniUI: http://hotelued.qunar.com/oniui/index.html
+- highcharts: http://www.highcharts.com/    http://www.hcharts.cn/
+- backbone: http://www.csser.com/tools/backbone/backbone.js.html http://www.the5fire.com/3-backbone-model.html
+- DOM渲染：http://www.cnblogs.com/happyframework/p/3247390.html
+- fiddler: http://www.cnblogs.com/TankXiao/archive/2012/02/06/2337728.html
+- 观察者模式：http://www.cnblogs.com/TomXu/archive/2012/03/02/2355128.html
+- 移动开发规范：http://www.zjgsq.com/1339.html
+- 动态执行队列：http://www.7hihi.com/?p=636
+- artdialog: http://demo.jb51.net/js/2011/artDialog/index.html
+- GIT
+http://www.ruanyifeng.com/blog/2012/07/git.html
+http://www.oschina.net/translate/a-successful-git-branching-model
+http://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html#commands
+http://www.oschina.net/translate/a-successful-git-branching-model
+http://www.cnblogs.com/mengdd/p/3585038.html
+http://blog.jobbole.com/34503/
+git config命令使用第一篇——介绍，基本操作，增删改查http://blog.csdn.net/hutaoer06051/article/details/8275069
+- 前端性能
+http://blog.csdn.net/zhangren07/article/details/6883617
+- firebug控制台
+http://www.ruanyifeng.com/blog/2011/03/firebug_console_tutorial.html
+- 录屏软件
+mac: http://www.onlinedown.net/special_173373.htm
+- 正则可视化：
+http://jex.im/regulex/
+-设计模式：
+http://www.alloyteam.com/?s=模式
+http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html
+-Unicode与JavaScript详解
+http://www.ruanyifeng.com/blog/2014/12/unicode.html
+- API汇总
+http://overapi.com/nodejs/
+- Markdown
+http://wowubuntu.com/markdown/
+- JavaScript-Style-Guide
+https://github.com/adamlu/javascript-style-guide/archive/master.zip
+http://web.jobbole.com/82265/
+- 国外资源
+http://segmentfault.com/a/1190000002498855
+- react
+https://facebook.github.io/react/docs
+- 浏览器的工作原理
+http://kb.cnblogs.com/page/129756/
+- DOM ready
+http://www.cnblogs.com/horve/p/4092064.html
+- 跨域
+http://www.cnblogs.com/rainman/archive/2011/02/20/1959325.html
+
+- React
+http://wiki.jikexueyuan.com/project/react-native/
+-promise
+http://www.zhangxinxu.com/wordpress/2014/02/es6-javascript-promise-%E6%84%9F%E6%80%A7%E8%AE%A4%E7%9F%A5/
+- 网站链接
+http://www.tnten.com/
+
+-函数反柯里化
+http://www.cnblogs.com/pigtail/p/3450852.html
